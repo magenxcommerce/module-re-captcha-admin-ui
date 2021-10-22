@@ -1,0 +1,25 @@
+{
+    "name": "magenxcommerce/module-re-captcha-admin-ui",
+    "description": "Google reCAPTCHA integration for Magento2",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magenxcommerce/framework": "*",
+        "magenxcommerce/module-config": "*",
+        "magenxcommerce/module-re-captcha-ui": "*"
+    },
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\ReCaptchaAdminUi\\": ""
+        }
+    },
+    "replace": {
+        "magento/module-re-captcha-admin-ui": "*"
+    },
+    "suggest": {}
+}
